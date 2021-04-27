@@ -161,12 +161,12 @@
 
 
 #ifndef NGX_HTTP_UWSGI_TEMP_PATH
-#define NGX_HTTP_UWSGI_TEMP_PATH  "uwsgi_temp"
+#define NGX_HTTP_UWSGI_TEMP_PATH  "temp/uwsgi_temp"
 #endif
 
 
 #ifndef NGX_HTTP_SCGI_TEMP_PATH
-#define NGX_HTTP_SCGI_TEMP_PATH  "scgi_temp"
+#define NGX_HTTP_SCGI_TEMP_PATH  "temp/scgi_temp"
 #endif
 
 
