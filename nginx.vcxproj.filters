@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\nginx">
+      <UniqueIdentifier>{08f428ac-127e-4843-bd8f-fe5e7bca3055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\build">
+      <UniqueIdentifier>{f69bb9de-dec2-4b7b-b69d-fa26e4dee79e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nginx\src">
+      <UniqueIdentifier>{835ba50e-5dde-424a-b39f-a4bdb9a2481a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nginx\src\core">
+      <UniqueIdentifier>{5f0caa47-a05a-4e90-9930-dbd435a8f8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nginx\src\event">
+      <UniqueIdentifier>{8579d1c0-b589-4e58-beae-29c34d66fb7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nginx\src\event\modules">
+      <UniqueIdentifier>{851259b9-a3fa-4cb4-afe5-538b11432a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nginx\src\os">
+      <UniqueIdentifier>{5882f62d-3d26-41af-ac90-202bd7f24539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nginx\src\os\win32">
+      <UniqueIdentifier>{ddfcb123-e6ed-44e4-8e3b-67561bd0cee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nginx\src\http">
+      <UniqueIdentifier>{bdae4127-3a91-444f-a3f2-03d06721aa5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nginx\src\http\modules">
+      <UniqueIdentifier>{7e7218f8-201d-4494-bb33-150fdd115d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nginx-rtmp-module">
+      <UniqueIdentifier>{54693666-b665-4e24-b53b-5427ac32367b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nginx-rtmp-module\hls">
+      <UniqueIdentifier>{aa4c1f2f-3ca2-4fb6-9557-971802c7be90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nginx-rtmp-module\dash">
+      <UniqueIdentifier>{0fdc5d3d-098f-4a58-b28e-3f43e40025bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="build\ngx_pch.c">
+      <Filter>Source Files\build</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\nginx.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_array.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_buf.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_conf_file.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_connection.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_cpuinfo.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_crc32.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_crypt.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_cycle.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_file.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_hash.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_inet.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_list.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_log.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_md5.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_module.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_murmurhash.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_open_file_cache.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_output_chain.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_palloc.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_parse.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_parse_time.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_proxy_protocol.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_queue.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_radix_tree.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_rbtree.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_regex.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_resolver.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_rwlock.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_sha1.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_shmtx.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_slab.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_spinlock.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_string.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_syslog.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\ngx_times.c">
+      <Filter>Source Files\nginx\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\ngx_event.c">
+      <Filter>Source Files\nginx\src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\ngx_event_accept.c">
+      <Filter>Source Files\nginx\src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\ngx_event_connect.c">
+      <Filter>Source Files\nginx\src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\ngx_event_pipe.c">
+      <Filter>Source Files\nginx\src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\ngx_event_posted.c">
+      <Filter>Source Files\nginx\src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\ngx_event_timer.c">
+      <Filter>Source Files\nginx\src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\ngx_event_udp.c">
+      <Filter>Source Files\nginx\src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_alloc.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_dlopen.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_errno.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_event_log.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_files.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_process.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_process_cycle.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_shmem.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_socket.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_thread.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_time.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_udp_wsarecv.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_user.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_win32_init.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_wsarecv.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_wsarecv_chain.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_wsasend.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\win32\ngx_wsasend_chain.c">
+      <Filter>Source Files\nginx\src\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\ngx_event_acceptex.c">
+      <Filter>Source Files\nginx\src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\ngx_event_openssl.c">
+      <Filter>Source Files\nginx\src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\ngx_event_openssl_stapling.c">
+      <Filter>Source Files\nginx\src\event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\modules\ngx_iocp_module.c">
+      <Filter>Source Files\nginx\src\event\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\modules\ngx_win32_poll_module.c">
+      <Filter>Source Files\nginx\src\event\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event\modules\ngx_win32_select_module.c">
+      <Filter>Source Files\nginx\src\event\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_copy_filter_module.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_core_module.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_file_cache.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_header_filter_module.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_parse.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_postpone_filter_module.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_request.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_request_body.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_script.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_special_response.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_upstream.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_upstream_round_robin.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_variables.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\ngx_http_write_filter_module.c">
+      <Filter>Source Files\nginx\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_access_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_auth_basic_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_autoindex_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_browser_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_charset_filter_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_chunked_filter_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_empty_gif_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_fastcgi_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_geo_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_gzip_filter_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_headers_filter_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_index_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_limit_conn_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_limit_req_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_log_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_map_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_memcached_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_mirror_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_not_modified_filter_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_proxy_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_range_filter_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_referer_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_rewrite_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_scgi_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_split_clients_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_ssi_filter_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_ssl_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_static_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_try_files_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_upstream_hash_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_upstream_ip_hash_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_upstream_keepalive_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_upstream_least_conn_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_upstream_random_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_upstream_zone_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_userid_filter_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http\modules\ngx_http_uwsgi_module.c">
+      <Filter>Source Files\nginx\src\http\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="build\ngx_modules.c">
+      <Filter>Source Files\build</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_access_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_amf.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_auto_push_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_bandwidth.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_bitop.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_cmd_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_codec_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_control_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_core_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_eval.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_exec_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_flv_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_handler.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_handshake.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_init.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_limit_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_live_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_log_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_mp4_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_netcall_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_notify_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_play_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_proxy_protocol.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_receive.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_record_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_relay_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_send.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_shared.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\ngx_rtmp_stat_module.c">
+      <Filter>Source Files\nginx-rtmp-module</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\hls\ngx_rtmp_hls_module.c">
+      <Filter>Source Files\nginx-rtmp-module\hls</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\hls\ngx_rtmp_mpegts.c">
+      <Filter>Source Files\nginx-rtmp-module\hls</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\dash\ngx_rtmp_dash_module.c">
+      <Filter>Source Files\nginx-rtmp-module\dash</Filter>
+    </ClCompile>
+    <ClCompile Include="nginx-rtmp-module\dash\ngx_rtmp_mp4.c">
+      <Filter>Source Files\nginx-rtmp-module\dash</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="build\nginx.res">
+      <Filter>Resource Files</Filter>
+    </Resource>
+  </ItemGroup>
+</Project>

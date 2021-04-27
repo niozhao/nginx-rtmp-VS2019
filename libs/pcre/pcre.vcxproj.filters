@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\pcre-8.40">
+      <UniqueIdentifier>{883857a3-3045-4a42-9948-282ec0c85ef5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\pcre-8.40\pcre_byte_order.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_chartables.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_compile.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_config.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_dfa_exec.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_exec.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_fullinfo.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_get.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_globals.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_jit_compile.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_jit_test.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_maketables.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_newline.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_ord2utf8.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_printint.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_refcount.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_string_utils.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_study.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_tables.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_ucd.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_valid_utf8.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_version.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pcre-8.40\pcre_xclass.c">
+      <Filter>Source Files\pcre-8.40</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
